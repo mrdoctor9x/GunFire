@@ -1,0 +1,10 @@
+event OnFire {
+    EntityRef entityRef;
+}
+event OnDamage {
+    EntityRef entityRef;
+}
+event OnReload {
+    EntityRef entityRef;
+    bool hasAmmo;
+}

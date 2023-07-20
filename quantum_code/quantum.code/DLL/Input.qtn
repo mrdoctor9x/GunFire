@@ -1,0 +1,12 @@
+﻿input
+{
+    button Jump;
+    FPVector2 Direction;
+    FPVector2 AxisLook;
+    bool holdingButtonRun;
+    bool holdingButtonAim;
+    bool holdingButtonFire;
+    FPVector3 StartFireAnchor;
+    FPVector3 DirFireAnchor;
+    button reload;
+}

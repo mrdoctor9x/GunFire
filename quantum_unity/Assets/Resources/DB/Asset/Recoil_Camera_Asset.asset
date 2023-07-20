@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5cd400477a9a24e8bbb8f21f11aeb6, type: 3}
+  m_Name: Recoil_Camera_Asset
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Asset/Recoil_Camera_Asset
+      Guid:
+        Value: 4207304050119712983
+    locationMultiplier:
+      RawValue: 65536
+    locationSpring:
+      damping:
+        RawValue: 851968
+      stiffness:
+        RawValue: 9830400
+      mass:
+        RawValue: 65536
+      speed:
+        RawValue: 131072
+    locationCurves: []
+    rotationMultiplier:
+      RawValue: 65536
+    rotationSpring:
+      damping:
+        RawValue: 983040
+      stiffness:
+        RawValue: 9830400
+      mass:
+        RawValue: 117964
+      speed:
+        RawValue: 150732
+    rocationCurves:
+    - Samples:
+      - RawValue: 1966
+      - RawValue: -28710
+      - RawValue: -61313
+      - RawValue: -95593
+      - RawValue: -131300
+      - RawValue: -168185
+      - RawValue: -205999
+      - RawValue: -244491
+      - RawValue: -283413
+      - RawValue: -322515
+      - RawValue: -361547
+      - RawValue: -400261
+      - RawValue: -438406
+      - RawValue: -475734
+      - RawValue: -511994
+      - RawValue: -546938
+      - RawValue: -580315
+      - RawValue: -611877
+      - RawValue: -641374
+      - RawValue: -668556
+      - RawValue: -693174
+      - RawValue: -714979
+      - RawValue: -733721
+      - RawValue: -749151
+      - RawValue: -761019
+      - RawValue: -769076
+      - RawValue: -773072
+      - RawValue: -770107
+      - RawValue: -757735
+      - RawValue: -740311
+      - RawValue: -722318
+      - RawValue: -708235
+      - RawValue: -702545
+      PreWrapMode: 0
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 1603010
+      Resolution: 32
+      OriginalPreWrapMode: 8
+      OriginalPostWrapMode: 8
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 1966
+        InTangent:
+          RawValue: -38764
+        OutTangent:
+          RawValue: -38764
+        TangentMode: 0
+        TangentModeLeft: 1
+        TangentModeRight: 1
+      - Time:
+          RawValue: 1310720
+        Value:
+          RawValue: -773324
+        InTangent:
+          RawValue: -1527
+        OutTangent:
+          RawValue: -1527
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 1603010
+        Value:
+          RawValue: -702545
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    - Samples:
+      - RawValue: -16384
+      - RawValue: -16275
+      - RawValue: -15427
+      - RawValue: -13944
+      - RawValue: -11928
+      - RawValue: -9481
+      - RawValue: -6707
+      - RawValue: -3709
+      - RawValue: -590
+      - RawValue: 2547
+      - RawValue: 5600
+      - RawValue: 8466
+      - RawValue: 11042
+      - RawValue: 13225
+      - RawValue: 14911
+      - RawValue: 15998
+      - RawValue: 16384
+      - RawValue: 15997
+      - RawValue: 14907
+      - RawValue: 13217
+      - RawValue: 11030
+      - RawValue: 8449
+      - RawValue: 5577
+      - RawValue: 2519
+      - RawValue: -623
+      - RawValue: -3746
+      - RawValue: -6746
+      - RawValue: -9520
+      - RawValue: -11964
+      - RawValue: -13977
+      - RawValue: -15453
+      - RawValue: -16289
+      - RawValue: -16384
+      PreWrapMode: 0
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 524288
+      Resolution: 32
+      OriginalPreWrapMode: 8
+      OriginalPostWrapMode: 8
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: -16384
+        InTangent:
+          RawValue: -1180
+        OutTangent:
+          RawValue: -1180
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 262144
+        Value:
+          RawValue: 16384
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 524288
+        Value:
+          RawValue: -16384
+        InTangent:
+          RawValue: 1246
+        OutTangent:
+          RawValue: 1246
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    - Samples:
+      - RawValue: 6553
+      - RawValue: 6405
+      - RawValue: 5989
+      - RawValue: 5343
+      - RawValue: 4505
+      - RawValue: 3513
+      - RawValue: 2405
+      - RawValue: 1222
+      - RawValue: 0
+      - RawValue: -1222
+      - RawValue: -2406
+      - RawValue: -3513
+      - RawValue: -4505
+      - RawValue: -5344
+      - RawValue: -5990
+      - RawValue: -6406
+      - RawValue: -6553
+      - RawValue: -6406
+      - RawValue: -5990
+      - RawValue: -5344
+      - RawValue: -4505
+      - RawValue: -3513
+      - RawValue: -2406
+      - RawValue: -1222
+      - RawValue: 0
+      - RawValue: 1222
+      - RawValue: 2405
+      - RawValue: 3513
+      - RawValue: 4505
+      - RawValue: 5343
+      - RawValue: 5989
+      - RawValue: 6405
+      - RawValue: 6553
+      PreWrapMode: 0
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 524288
+      Resolution: 32
+      OriginalPreWrapMode: 8
+      OriginalPostWrapMode: 8
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 6553
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 262144
+        Value:
+          RawValue: -6553
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 524288
+        Value:
+          RawValue: 6553
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0

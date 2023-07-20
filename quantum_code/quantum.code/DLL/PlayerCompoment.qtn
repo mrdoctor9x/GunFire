@@ -1,0 +1,38 @@
+﻿component MovementInfo{
+    [Header("Movement")]
+    FP speedRunning;
+    FP speedWalking;
+    FP speedAiming;
+    [ExcludeFromPrototype]
+    FPVector3 directionMove;
+    [ExcludeFromPrototype]
+    FPVector2 rotationCharacter;
+    [ExcludeFromPrototype]
+    FPQuaternion bodyRotation;
+    [ExcludeFromPrototype]
+    bool running;
+    [ExcludeFromPrototype]
+    bool aiming;
+    [ExcludeFromPrototype]
+        bool IsGround;
+}
+component MotionInfo
+{
+    [ExcludeFromPrototype]
+    FPVector3 finalLocation;
+    [ExcludeFromPrototype]
+    FPVector3 finaEulerAngles;
+    
+     
+} 
+component HealthCompoment 
+{
+    FP hp;
+    bool isDead;
+    FP timeRespawn;
+}
+component WeaponInventory {
+
+	Int32 CurrentWeaponIndex;
+	array<WeaponData>[2] Weapons;
+}

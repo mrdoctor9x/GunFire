@@ -1,0 +1,52 @@
+﻿component WeaponInfo
+{
+    FP Magazine;
+    FP TimeFire;
+    [ExcludeFromPrototype]
+    FP timeReload;
+    [ExcludeFromPrototype]
+    bool isAiming;
+    [ExcludeFromPrototype]
+    int shotsFired;
+    [ExcludeFromPrototype]
+    bool isReloading;
+    [ExcludeFromPrototype]
+    FPVector3 finalLocation;
+    [ExcludeFromPrototype]
+    FPVector3 finaEulerAngles;
+    [ExcludeFromPrototype]
+    SpringQuantum recoilSpringLocation;
+    [ExcludeFromPrototype]
+    SpringQuantum recoilSpringRotation;
+}
+component BulletEffet
+{
+    FP TimeDestroy;
+}
+component BulletTrace
+{
+FPVector3 DirFire;
+    FPVector3 startPos;
+    FP Time;
+}
+struct WeaponData {
+	FP damage;
+}
+struct SpringQuantum{
+    FPVector3 end;
+    
+    FPVector3 currentVelocity;
+    
+    FPVector3 currentValue;
+    
+    FPVector3 currentAcceleration;
+    
+    SpringSettingsComponent springSetting;
+}
+struct SpringSettingsComponent
+{
+    FP damping;
+    FP stiffness;
+    FP mass;
+    FP speed;
+}
